@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(90, 86, 86);
+    
+    color: white;
+    /* background-image: url("https://raisincdn.akaraisin.com/Org_39/EventLocation_23108/Public/hMr9R82251.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-weight: 400;
+}
+
+header {
+    width: 100vw;
+    height: 190px;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+header h2 {
+    font-size: 40px;
+}
+
+nav {
+    padding: 10px
+}
+
+section img {
+
+    height: 400px;
+    width: 700px;
+}
+
+.container p {
+    width: 40%;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container {
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.container img {
+    padding-left: 70px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.info-list {
+    padding: 40px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    
+}
+
+.info-list h2 {
+    font-size: 40px;
+}
+
+.info-list p {
+    font-size: 20px;
+    
+}
